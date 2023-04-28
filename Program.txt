@@ -1,0 +1,22 @@
+String vehicleName;
+String dateOfRentReturn;
+int lateFeePerDay;
+int totalLateFee
+void bookIssue(String vehicleName,String dateOfRentIssue)
+{
+  if(vehicleName)
+  {
+   System.out.println("Vehicle Issued");
+  }
+}
+void vehicleReturn(String vehicleName,String dateOfRentReturn)
+{
+   if(todaydate=dateOfRentReturn)
+   {
+      System.out.println("Vehicle Returned");
+   }
+   else{
+     totalLateFee=noOfExtradays*lateFeePerDay;
+	 System.out.println("Vehicle Returned with Late Fee to be Paid is:"+totalLateFee);
+   }
+}
