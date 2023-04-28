@@ -1,22 +1,15 @@
-String vehicleName;
-String dateOfRentReturn;
-int lateFeePerDay;
-int totalLateFee
-void bookIssue(String vehicleName,String dateOfRentIssue)
-{
-  if(vehicleName)
-  {
-   System.out.println("Vehicle Issued");
-  }
-}
-void vehicleReturn(String vehicleName,String dateOfRentReturn)
-{
-   if(todaydate=dateOfRentReturn)
-   {
-      System.out.println("Vehicle Returned");
-   }
-   else{
-     totalLateFee=noOfExtradays*lateFeePerDay;
-	 System.out.println("Vehicle Returned with Late Fee to be Paid is:"+totalLateFee);
-   }
+public class Student  
+{  
+public void printDetails();  
+{  
+System.out.println("details of the student are:")
+}  
+pubic void calculatePercentage();  
+{  
+ System.out.println("Percentage of the student are:")
+}  
+public void addStudent();  
+{  
+System.out.println("Student added is:")
+}  
 }
